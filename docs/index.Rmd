@@ -1,45 +1,29 @@
 ---
-title: "Your A4 Report Title (TODO: Revise title)"
-author: "Your Name"
-date: '2022-11-01'
+title: "A4 Incarceration Report"
+author: "Kennedy Nguyen"
+date: '2024-5-25'
 output: html_document
 ---
 
-```{r echo=FALSE, eval=TRUE, message=FALSE}
-source("../source/a4-helpers.R")
-source("../source/analysis.R")
-```
-
 ## Abstract 
-[TODO: Include a short abstract (about 50 words)]
-
-# Test (TODO: Remove before submission!!)
-```{r echo=FALSE}
-q1_string <- test_query1()
-num <- 5
-```
-As you know, this is a markdown report. The [R Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) is **useful!**
-
-* Here's a test of a dynamic variable. Say **"`r q1_string`!!!** 
-* Here's another test. A vector
-of numbers: `r test_query2(num)`.
-
-Recall that _{r echo=TRUE}_ can be used to display the code, 
-which is very useful when developing and debugging a report. Here's an example: 
-
-```{r echo=TRUE}
-num <- 5
-sum <- sum(test_query2(num))
-print(sum)
-```
+This report looks to investigate the trends in incarceration rates, with a main focus on race and gender in the United States. Data collected by the *Vera Institute* will be used to explore the disproportionate numbers of specific demographics within the incarcerated population. This report hopes to take a closer look at mass incarceration in our communities.   
 
 ## Introduction 
-[TODO]
+In this report, the variables that I am choosing to analyze are race and sex and if there are any trends to be found
+between these variables. I am choosing these two variables because I am genuinely curious about what my findings will be, I have a general prediction of what will be shown from the data but I hope to be wrong. 
+
+In my my first graph, I found that Black Americans were making up the majority of the jailed population in Louissiana at nearly 0.0100 from 2009 to 2012. This does make sense considering that Louissiana has the second highest percentage of African Americans in the United States with 32.8% of the state being of African American heritage.
+
+The data set is collected and maintained by the *Vera Institute*, they aim to find ways to end mass incarceration which
+destroys and rips apart communities and families across the US. A limitation that may be a concern for this data set are that it is not fully up to date, as of my report, the data set only covers up to 2018. Another limitation is that
+the numbers may not be fully accurate due to *Vera* having to make estimations because of information releases being
+staggered or untimely as stated on their website *"Vera researchers have produced estimates for state, urbanicity, and national jail populations in recent years."* Furthermore, another possible flaw in this dataset is that because this dataset takes in everything from rural jails to massive urban ones, standards of information colleciton may differ from jail to jail which could possibly give us some inaccuracies in the data and skew or cause our information to have bias. 
+
+
 
 ## Data Summary 
-[TODO]
+In the first graph showcasing the rate of different ethnicities in the jailed population within the US, we can see that in some states, Black Americans make up a large amount of the populations in jail. This is much higher than any of the other ethnicities on this graph. African Americans are being arrested at disproportionately higher rates than any other group. I am not sure why the pre-1985 data is presented like this, but we can see that once the data collection ramps up, African Americans start making up a big portion of the jailed US population. The percentage of the jailed population peaks at around 2009 and 2010. 
+![Ethnicity_Ratios](~source/ratios.png)
 
-[TODO ... other sections ... See Canvas for details]
 
-_All the very best with your work!_
 
